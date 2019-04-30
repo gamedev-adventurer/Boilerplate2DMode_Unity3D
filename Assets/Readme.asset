@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 1dac6b0ce52ce4023836ec5259ac9c89, type: 3}
+  title: Boilerplate  2D Mode by Mar Moreno
+  sections:
+  - heading: How does this thing work?
+    text: The only thng you need to star is to create a new scene and add the game
+      manager prefab. It handles all the instances of the other managers for you to
+      comunicate with. Each manager handles there own job, to acces to there functions
+      or data you most talk to the properties created in the game manager. Take a
+      look and explore the code, hope it helps you jump start somethings.
+    linkText: 
+    url: 
+    image1: {fileID: 0}
+    image2: {fileID: 0}
+  - heading: What are the debug and qa flags for?
+    text: When debug is on it allows all the debug logs made with the DebuggerUtil
+      to appear on the console. QA is used to turn on any JUnity  GUI used for testing,
+      so far only the player manager has this.
+    linkText: 
+    url: 
+    image1: {fileID: 0}
+    image2: {fileID: 0}
+  - heading: Have some questions?
+    text: "Send me an emali, I\xB4ll try to answer as  fast as I can."
+    linkText: Mail the gamedev adventurer herself
+    url: mar.moreno@gamedevadventurer.com
+    image1: {fileID: 0}
+    image2: {fileID: 0}
+  - heading: Whats next?
+    text: Im planning on adding some assets for level layout and movement scripts.
+    linkText: 
+    url: 
+    image1: {fileID: 0}
+    image2: {fileID: 0}
+  loadedLayout: 1
