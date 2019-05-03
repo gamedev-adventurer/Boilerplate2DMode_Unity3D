@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 
 [RequireComponent(typeof(InputManager))]
-[RequireComponent(typeof(PlayerManager))]
 [RequireComponent(typeof(DataManager))]
 [RequireComponent(typeof(SoundManager))]
 [RequireComponent(typeof(SceneLoaderManager))]
@@ -61,7 +60,7 @@ public class GameManager : MonoBehaviour
     {
 
         _debuggerUtility = GetComponent<DebugLoggerUtil>();
-        _playerManager = GetComponent<PlayerManager>();
+        _playerManager = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerManager>();
         _dataManager = GetComponent<DataManager>();
         _soundManager = GetComponent<SoundManager>();
         _sceneLoaderManager = GetComponent<SceneLoaderManager>();
